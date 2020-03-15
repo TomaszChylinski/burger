@@ -1,3 +1,8 @@
-INSERT INTO burger (burger_name, devoured) values ('TMacBurger', 0);
-INSERT INTO burger (burger_name, devoured) values ('MacBurger', 0);
-INSERT INTO burger (burger_name, devoured) values ('TRexBurger', 0);
+
+USE burgers_db;
+INSERT INTO burgers
+    (burger_name, devoured)
+values
+    ('TMacBurger', false),
+    ("TCheeseBurger", false),
+    ("TVegBurger", false);
